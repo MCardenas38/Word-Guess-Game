@@ -1,0 +1,10 @@
+.main-content{
+    border: 3px solid black;
+    font-family: 'Major Mono Display', monospace;
+    text-align: center;
+}
+
+#heading{
+    padding: 0px;
+    margin-bottom: 10px; 
+}
