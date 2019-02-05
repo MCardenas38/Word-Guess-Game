@@ -146,20 +146,20 @@ document.onkeyup = function(event){
         alert("Winner!");
         var subs= document.createElement("p");
         var facts= document.createElement("p");
-        if(target==="Pewdiepie"){
+        if(target==="pewdiepie"){
             pic.src="assets/images/pweds.jpeg";
         }
-        if(target==="Shane Dawson"){
-            pic.src="../images/shane.jpg";
+        if(target==="shane dawson"){
+            pic.src="assets/images/shane.jpg";
         }
-        if(target==="Philip Defranco"){
-            pic.src="../images/philip.jpg";
+        if(target==="philip defranco"){
+            pic.src="assets/images/philip.jpg";
         }
-        if(target==="Marques Brownlee"){
-            pic.src="../images/marques.jpg";
+        if(target==="marques brownlee"){
+            pic.src="assets/images/marques.jpg";
         }
-        if(target==="Vsauce"){
-            pic.src="../images/vsauce.png";
+        if(target==="vsauce"){
+            pic.src="assets/images/vsauce.png";
         }
         sub= youtuberList[randnum].getsubs();
         facts= youtuberList[randnum].getfact();
