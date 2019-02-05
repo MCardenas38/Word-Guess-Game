@@ -155,15 +155,15 @@ document.onkeyup = function(event){
             console.log("Works");
         }
         if(target==="philip defranco"){
-            pic.src=""assets/images/philip.jpg";
+            pic.src="assets/images/philip.jpg";
             console.log("Works");
         }
         if(target==="marques brownlee"){
-            pic.src=""assets/images/marques.jpg";
+            pic.src="assets/images/marques.jpg";
             console.log("Works");
         }
         if(target==="vsauce"){
-            pic.src=""assets/images/vsauce.png";
+            pic.src="assets/images/vsauce.png";
             console.log("Works");
         }
         sub= youtuberList[randnum].getsubs();
