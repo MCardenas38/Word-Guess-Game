@@ -148,27 +148,31 @@ document.onkeyup = function(event){
         var facts= document.createElement("p");
         if(target==="pewdiepie"){
             pic.src="assets/images/pweds.jpeg";
+            console.log("Works");
         }
         if(target==="shane dawson"){
             pic.src="assets/images/shane.jpg";
+            console.log("Works");
         }
         if(target==="philip defranco"){
-            pic.src="assets/images/philip.jpg";
+            pic.src=""assets/images/philip.jpg";
+            console.log("Works");
         }
         if(target==="marques brownlee"){
-            pic.src="assets/images/marques.jpg";
+            pic.src=""assets/images/marques.jpg";
+            console.log("Works");
         }
         if(target==="vsauce"){
-            pic.src="assets/images/vsauce.png";
+            pic.src=""assets/images/vsauce.png";
+            console.log("Works");
         }
         sub= youtuberList[randnum].getsubs();
         facts= youtuberList[randnum].getfact();
-        // pic_tab.appendChild(sub);
-        // pic_tab.appendChild(facts);
+        document.getElementById("subs").textContent= sub;
+        document.getElementById("fact").textContent= facts;
         start();
         display_word.textContent= targetHidden;
         display_guess.textContent= userguess;
         left.textContent= Guesses;
     }
 }
-
